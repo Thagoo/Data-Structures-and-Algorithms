@@ -84,8 +84,9 @@ public class ArrayOperations {
             System.out.println("1. Insertion");
             System.out.println("2. Update");
             System.out.println("3. Delete");
-            System.out.println("4. Searching");
-            System.out.println("5. Exit\n");
+            System.out.println("4. Search");
+            System.out.println("5. Display");
+            System.out.println("6. Exit\n");
             System.out.print("Enter your choice: ");
             opt = scan.nextInt();
             switch (opt) {
@@ -102,6 +103,9 @@ public class ArrayOperations {
                     search();
                     break;
                 case 5:
+                    display();
+                    break;
+                case 6:
                     System.exit(0);
                     break;
                 default:
